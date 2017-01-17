@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B26EDB0A1E2CD84A0020B1AA /* UITableView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = B26EDB091E2CD84A0020B1AA /* UITableView+Placeholder.m */; };
+		B26EDB0D1E2CDD280020B1AA /* NSObject+Swizz.m in Sources */ = {isa = PBXBuildFile; fileRef = B26EDB0C1E2CDD280020B1AA /* NSObject+Swizz.m */; };
+		B26EDB4C1E2DBE750020B1AA /* XYPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26EDB4B1E2DBE750020B1AA /* XYPlaceholderView.m */; };
+		B26EDB4F1E2DC5B50020B1AA /* airport@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26EDB4D1E2DC5B50020B1AA /* airport@2x.png */; };
+		B26EDB501E2DC5B50020B1AA /* airport@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26EDB4E1E2DC5B50020B1AA /* airport@3x.png */; };
 		B2E33C0B1E29D8A3000CBCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E33C0A1E29D8A3000CBCBB /* main.m */; };
 		B2E33C0E1E29D8A3000CBCBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E33C0D1E29D8A3000CBCBB /* AppDelegate.m */; };
 		B2E33C111E29D8A3000CBCBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E33C101E29D8A3000CBCBB /* ViewController.m */; };
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B26EDB081E2CD84A0020B1AA /* UITableView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Placeholder.h"; sourceTree = "<group>"; };
+		B26EDB091E2CD84A0020B1AA /* UITableView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Placeholder.m"; sourceTree = "<group>"; };
+		B26EDB0B1E2CDD280020B1AA /* NSObject+Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizz.h"; sourceTree = "<group>"; };
+		B26EDB0C1E2CDD280020B1AA /* NSObject+Swizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizz.m"; sourceTree = "<group>"; };
+		B26EDB4A1E2DBE750020B1AA /* XYPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPlaceholderView.h; sourceTree = "<group>"; };
+		B26EDB4B1E2DBE750020B1AA /* XYPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPlaceholderView.m; sourceTree = "<group>"; };
+		B26EDB4D1E2DC5B50020B1AA /* airport@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airport@2x.png"; sourceTree = "<group>"; };
+		B26EDB4E1E2DC5B50020B1AA /* airport@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airport@3x.png"; sourceTree = "<group>"; };
 		B2E33C061E29D8A3000CBCBB /* PlaceholderViewForTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceholderViewForTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E33C0A1E29D8A3000CBCBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2E33C0C1E29D8A3000CBCBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +123,14 @@
 				B2E33C171E29D8A3000CBCBB /* LaunchScreen.storyboard */,
 				B2E33C1A1E29D8A3000CBCBB /* Info.plist */,
 				B2E33C091E29D8A3000CBCBB /* Supporting Files */,
+				B26EDB081E2CD84A0020B1AA /* UITableView+Placeholder.h */,
+				B26EDB091E2CD84A0020B1AA /* UITableView+Placeholder.m */,
+				B26EDB0B1E2CDD280020B1AA /* NSObject+Swizz.h */,
+				B26EDB0C1E2CDD280020B1AA /* NSObject+Swizz.m */,
+				B26EDB4A1E2DBE750020B1AA /* XYPlaceholderView.h */,
+				B26EDB4B1E2DBE750020B1AA /* XYPlaceholderView.m */,
+				B26EDB4D1E2DC5B50020B1AA /* airport@2x.png */,
+				B26EDB4E1E2DC5B50020B1AA /* airport@3x.png */,
 			);
 			path = PlaceholderViewForTableView;
 			sourceTree = "<group>";
@@ -249,7 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26EDB4F1E2DC5B50020B1AA /* airport@2x.png in Resources */,
 				B2E33C191E29D8A3000CBCBB /* LaunchScreen.storyboard in Resources */,
+				B26EDB501E2DC5B50020B1AA /* airport@3x.png in Resources */,
 				B2E33C161E29D8A3000CBCBB /* Assets.xcassets in Resources */,
 				B2E33C141E29D8A3000CBCBB /* Main.storyboard in Resources */,
 			);
@@ -277,8 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E33C111E29D8A3000CBCBB /* ViewController.m in Sources */,
+				B26EDB4C1E2DBE750020B1AA /* XYPlaceholderView.m in Sources */,
 				B2E33C0E1E29D8A3000CBCBB /* AppDelegate.m in Sources */,
+				B26EDB0D1E2CDD280020B1AA /* NSObject+Swizz.m in Sources */,
 				B2E33C0B1E29D8A3000CBCBB /* main.m in Sources */,
+				B26EDB0A1E2CD84A0020B1AA /* UITableView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +542,7 @@
 				B2E33C351E29D8A3000CBCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2E33C361E29D8A3000CBCBB /* Build configuration list for PBXNativeTarget "PlaceholderViewForTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +551,7 @@
 				B2E33C381E29D8A3000CBCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2E33C391E29D8A3000CBCBB /* Build configuration list for PBXNativeTarget "PlaceholderViewForTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +560,7 @@
 				B2E33C3B1E29D8A3000CBCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
